@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const About =() =>{
+export const Error = () => {
   return (
     <div>
-      About
+      404
     </div>
   )
 }
+
