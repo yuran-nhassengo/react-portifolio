@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 export const NavBar =() =>{
   
@@ -13,13 +14,13 @@ export const NavBar =() =>{
         <NavLink to ={'/'} className={({ isActive }) =>
           `${isActive ? activeStyles : inactiveStyles}`}>Home</NavLink>
 
-        <NavLink to ={'/portifolio'} className={({ isActive }) =>
+        <NavLink to ={'/projects'} className={({ isActive }) =>
           isActive ? activeStyles : inactiveStyles}>Projects</NavLink>
 
-        <NavLink to ={'/servicos'} className={({ isActive }) =>
+        <NavLink to ={'/about'} className={({ isActive }) =>
           isActive ? activeStyles : inactiveStyles}>About</NavLink>
 
-        <NavLink to ={'/contactos'} className={({ isActive }) =>
+        <NavLink to ={'/resume'} className={({ isActive }) =>
           isActive ? activeStyles : inactiveStyles}>Resume</NavLink>
 
     </nav>

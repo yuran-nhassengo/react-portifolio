@@ -1,9 +1,19 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
+
+
+import {Header} from "../components/header"
+import {Footer} from "../components/footer"
 
 export const Resume =() =>{
   return (
-    <div>
+    <>
+    <Header/>
+    <main>
       Resume
-    </div>
+    <Outlet/>
+    </main>
+    <Footer/>
+  </>
   )
 }
