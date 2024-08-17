@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavBar } from './navbar';
 
 export const Header =() =>{
+
+    const [ isMenuOpen,setIsMenuOpen] = useState(false)
+
   return (
     
       
@@ -28,7 +31,19 @@ export const Header =() =>{
               className="py-2 pl-10 rounded-xl border-2 border-blue-300 focus:bg-slate-100 focus:outline-sky-500" />
             </div>
 
-            <i className="bx bx-menu xl:hidden block text-5xl cursor-pointer"></i>
+            <i className="bx bx-menu xl:hidden block text-5xl cursor-pointer"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}></i>
+
+            <div className={`absolute xl:hidden top-24 left-0 w-full bg-white flex flex-col items-center gap-6 font-semibold text-lg
+              transform transition-transform ${isMenuOpen ? "opacity-100":"opacity-0"}`}
+              style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}>
+
+                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Home</li>
+                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">About</li>
+                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Skills</li>
+                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Projects</li>
+                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Contact</li>
+              </div>
           </header>
         </div>
      
