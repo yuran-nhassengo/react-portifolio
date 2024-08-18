@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { NavBar } from './navbar';
+
+import { Link } from 'react-scroll';
 
 export const Header =() =>{
 
@@ -16,14 +17,14 @@ export const Header =() =>{
               <img src="#" alt="Logo" className="w-52 hover:scale-105 transition-all" />
             </a>
 
-            <ul className="hidden xl:flex items-center gap-12 font-semibold text-base">
-              <li className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Home</li>
-              <li className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">About</li>
-              <li className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Skills</li>
-              <li className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">projects</li>
-              <li className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Contact</li>
+            <div className="hidden xl:flex items-center gap-12 font-semibold text-base">
+              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Home</Link>
+              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">About</Link>
+              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Skills</Link>
+              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">projects</Link>
+              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Contact</Link>
 
-            </ul>
+            </div>
 
             <div className="relative hidden md:flex items-center justify-center gap-3">
               <i className="bx bx-search absolute left-3 text-gray-500"></i>
@@ -38,11 +39,11 @@ export const Header =() =>{
               transform transition-transform ${isMenuOpen ? "opacity-100":"opacity-0"}`}
               style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}>
 
-                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Home</li>
-                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">About</li>
-                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Skills</li>
-                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Projects</li>
-                <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Contact</li>
+                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Home</Link>
+                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">About</Link>
+                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Skills</Link>
+                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Projects</Link>
+                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Contact</Link>
               </div>
           </header>
         </div>
