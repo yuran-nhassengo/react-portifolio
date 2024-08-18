@@ -19,7 +19,7 @@ export const Header =() =>{
             </a>
 
             <div className="hidden xl:flex items-center gap-12 font-semibold text-base">
-              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Home</Link>
+              <Link  to="home" smooth={true} duration={500} className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Home</Link>
               <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">About</Link>
               <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Skills</Link>
               <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">projects</Link>

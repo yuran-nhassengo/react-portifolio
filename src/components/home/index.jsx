@@ -1,8 +1,9 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 export const Home = () => {
   return (
-    <div>
+    <Element name="home">
       <p>Sou Yuran Oscar Nhassengo, uma pessoa com um forte senso de responsabilidade, lealdade e justiça. 
         Valorizo o trabalho em equipe e me considero um líder natural, sempre buscando colaborar e 
         apoiar meus colegas. Comprometido com o crescimento contínuo e a busca por novos conhecimentos,
@@ -12,7 +13,7 @@ export const Home = () => {
         Node.js, Express.js, e TailwindCSS. Também sou familiarizado com ferramentas como Vite, 
         e bancos de dados MySQL e MongoDB. Estou sempre pronto para contribuir e inovar em projetos,
          mantendo uma atitude positiva e proativa.</p>
-    </div>
+    </Element>
   )
 }
 
