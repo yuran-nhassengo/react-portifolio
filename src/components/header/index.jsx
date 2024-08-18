@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import { Link } from 'react-scroll';
+import { SearchComponent } from './search';
 
 export const Header =() =>{
 
@@ -27,10 +28,13 @@ export const Header =() =>{
             </div>
 
             <div className="relative hidden md:flex items-center justify-center gap-3">
-              <i className="bx bx-search absolute left-3 text-gray-500"></i>
+              {/* <i className="bx bx-search absolute left-3 text-gray-500"></i>
               <input type="text" placeholder="Search...."
-              className="py-2 pl-10 rounded-xl border-2 border-blue-300 focus:bg-slate-100 focus:outline-sky-500" />
+              className="py-2 pl-10 rounded-xl border-2 border-blue-300 focus:bg-slate-100 focus:outline-sky-500" /> */}
+              <SearchComponent/>
             </div>
+
+
 
             <i className="bx bx-menu xl:hidden block text-5xl cursor-pointer"
             onClick={() => setIsMenuOpen(!isMenuOpen)}></i>
