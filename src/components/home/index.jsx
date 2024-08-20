@@ -3,8 +3,8 @@ import { Element } from 'react-scroll'
 
 export const Home = () => {
   return (
-    <Element name="home">
-      <p>Sou Yuran Oscar Nhassengo, uma pessoa com um forte senso de responsabilidade, lealdade e justiça. 
+    <Element name="home" className="flex  mt-8  w-1/5">
+      <p >Sou Yuran Oscar Nhassengo, uma pessoa com um forte senso de responsabilidade, lealdade e justiça. 
         Valorizo o trabalho em equipe e me considero um líder natural, sempre buscando colaborar e 
         apoiar meus colegas. Comprometido com o crescimento contínuo e a busca por novos conhecimentos,
          tenho uma paixão por enfrentar desafios e alcançar o sucesso coletivo.
