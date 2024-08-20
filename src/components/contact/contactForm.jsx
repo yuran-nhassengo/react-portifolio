@@ -17,7 +17,7 @@ export const Contact = () => {
                 <label className="block text-white text-sm font-semibold mb-2" htmlFor="">Assunto:</label>
                 <textarea rows="4" placeholder="Escreva a sua Mensagem...." className="w-full px-3 py-2 border rounded-lg bg-gray-800 focus:border-blue-500" required type="text" />
             </div>
-            <div>
+            <div className="flex justify-center">
                 <button type="submit" className="bg-pink-500 text-white font-semibold px-4 py-2 rounded-lg hover:pink-600 focus:outline-white">Enviar</button>
             </div>
         </form>
