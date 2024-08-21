@@ -19,11 +19,11 @@ export const Header =() =>{
             </a>
 
             <div className="hidden xl:flex items-center gap-12 font-semibold text-base">
-              <Link  to="home" smooth={true} duration={500} className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Home</Link>
-              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">About</Link>
-              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Skills</Link>
-              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">projects</Link>
-              <Link className="p-3 hover:bg-sky-400 hover:text-white rounded transition-all cursor-pointer">Contact</Link>
+              <Link  to="home" smooth={true} duration={500} className="menu-item">Home</Link>
+              <Link className="menu-item">About</Link>
+              <Link className="menu-item">Skills</Link>
+              <Link className="menu-item">projects</Link>
+              <Link className="menu-item">Contact</Link>
 
             </div>
 
@@ -34,7 +34,7 @@ export const Header =() =>{
 
 
             <i className="bx bx-menu xl:hidden block text-5xl cursor-pointer"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}></i>
+            onClick={() => setIsMenuOpen(!isMenuOpen)}>Menu</i>
 
             <div className={`absolute xl:hidden top-24 left-0 w-full bg-white flex flex-col items-center gap-6 font-semibold text-lg
               transform transition-transform ${isMenuOpen ? "opacity-100":"opacity-0"}`}
