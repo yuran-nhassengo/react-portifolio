@@ -23,7 +23,7 @@ export const Header =() =>{
               <Link  className="menu-item">About</Link>
               <Link className="menu-item">Skills</Link>
               <Link className="menu-item">projects</Link>
-              <Link to="contact" className="menu-item">Contact</Link>
+              <Link to="contact" smooth={true} duration={500} className="menu-item">Contact</Link>
 
             </div>
 
