@@ -3,8 +3,9 @@ import { Element } from 'react-scroll'
 
 export const Home = () => {
   return (
-    <Element name="home" className="flex" >
-        <div className="w-36 h-36 mx-auto p-0 bg-white rounded-full shadow-md mt-4 mb-4 flex items-center justify-center">
+    <Element name="home" className="flex relative" >
+       <div className="flex justify-between mt-24">
+       <div className="w-36 h-36 mx-auto p-0 bg-white rounded-full shadow-md mt-4 mb-4 flex items-center justify-center">
             <img 
                 src="https://via.placeholder.com/150" 
                 alt="Imagem Circular" 
@@ -18,6 +19,7 @@ export const Home = () => {
             tenho uma paixão por enfrentar desafios e alcançar o sucesso coletivo.</p>
         </div>
         
+       </div>
     </Element>
   )
 }

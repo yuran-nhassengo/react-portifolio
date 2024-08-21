@@ -10,8 +10,8 @@ export const Header =() =>{
   return (
     
       
-        <div className="w-full h-full bg-gradient-to-r from-blue-400 to-emerald-400">
-          <header className="flex justify-between items-center text-black py-6 px-8
+        <div className="w-full h-full  bg-gradient-to-r from-blue-400 to-emerald-400">
+          <header className="flex w-screen fixed z-10 justify-between items-center text-black py-6 px-8
             md:px-32 bg-white drop-shadow-md
           ">
             <a href="#">
@@ -20,10 +20,10 @@ export const Header =() =>{
 
             <div className="hidden xl:flex items-center gap-12 font-semibold text-base">
               <Link  to="home" smooth={true} duration={500} className="menu-item">Home</Link>
-              <Link className="menu-item">About</Link>
+              <Link  className="menu-item">About</Link>
               <Link className="menu-item">Skills</Link>
               <Link className="menu-item">projects</Link>
-              <Link className="menu-item">Contact</Link>
+              <Link to="contact" className="menu-item">Contact</Link>
 
             </div>
 

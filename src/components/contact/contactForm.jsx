@@ -1,8 +1,10 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 export const Contact = () => {
   return (
-    <div className=" max-w-md w-full mx-auto p-6 bg-white rounded-lg shadow-md">
+    <Element name="contact">
+        <div className=" max-w-md w-full mx-auto p-6 bg-white rounded-lg shadow-md">
         <h2 className="text-3xl text-center text-gray-400 font-bold mb-6">Contact Us</h2>
         <form action="">
             <div className="mb-4">
@@ -22,6 +24,7 @@ export const Contact = () => {
             </div>
         </form>
     </div>
+    </Element>
   )
 }
 
