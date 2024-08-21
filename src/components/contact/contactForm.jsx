@@ -4,7 +4,7 @@ import { Element } from 'react-scroll'
 export const Contact = () => {
   return (
     <Element name="contact">
-        <div className=" max-w-md w-full mx-auto p-6 bg-white rounded-lg shadow-md">
+        <div className=" max-w-md w-full mx-auto p-6 bg-white rounded-lg shadow-md rounded-lg border-solid border-2 border-blue-300">
         <h2 className="text-3xl text-center text-gray-400 font-bold mb-6">Contact Us</h2>
         <form action="">
             <div className="mb-4">

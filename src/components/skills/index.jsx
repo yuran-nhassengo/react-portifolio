@@ -11,25 +11,31 @@ export const Skills = () => {
         setSelectedSkill(data);
     }
   return (
-    <section className="ml-16 relative">
-        <h3 className="text-2xl mb-12 font-semibold">Technical Proficiency</h3>
+    <section className="ml-16 relative items-center mb-12">
+        
 
-        <div className="flex items-start gap-12">
-            <div className=" grid gap-12 grid-cols-2">
-                {SKILLS.map((item) =>(
-                    <SkillCard
-                        key={item.title}
-                        iconUrl={item.icons}
-                        title={item.title}
-                        isActive={selectedSkill.title === item.title}
-                        onClick={() =>{
-                            handleSelectSkill(item)
-                        }}
-                    />
-                ))
+        <div className="flex flex-wrap justify-center items-start   gap-12">
 
-                }
-            </div>
+           <div>
+            
+                    <h3 className="text-2xl mb-12 font-semibold">Technical Proficiency</h3>
+
+                    <div className=" mt-12 grid gap-12 grid-cols-2">
+                        {SKILLS.map((item) =>(
+                            <SkillCard
+                                key={item.title}
+                                iconUrl={item.icons}
+                                title={item.title}
+                                isActive={selectedSkill.title === item.title}
+                                onClick={() =>{
+                                    handleSelectSkill(item)
+                                }}
+                            />
+                        ))
+
+                        }
+                    </div>
+            </div> 
             <div className="flex">
                 <SkillsInfoCard
                     heading={selectedSkill.title}
