@@ -1,26 +1,38 @@
 import React from 'react'
-import { Element } from 'react-scroll'
+
 
 export const Home = () => {
   return (
-    <Element name="home" className="flex  flex-wrap justify-center relative" >
-       <div className="flex  mt-24">
-       <div className="w-36 h-36 mx-auto p-0  bg-white rounded-full shadow-md mt-4 mb-4 flex items-center justify-center">
-            <img 
-                src="https://via.placeholder.com/150" 
-                alt="Imagem Circular" 
-                className="w-full h-full rounded-full object-cover"
-            />
-        </div>
-        <div className=" max-w-md w-full mx-auto p-6 bg-white rounded-lg shadow-md mt-4 mb-4 rounded-lg border-solid border-2 border-blue-300">
-          <p >Ola, meu nome é Yuran Oscar Nhassengo, uma pessoa com um forte senso de responsabilidade, lealdade e justiça. 
-            Valorizo o trabalho em equipe e me considero um líder natural, sempre buscando colaborar e 
-            apoiar meus colegas. Comprometido com o crescimento contínuo e a busca por novos conhecimentos,
-            tenho uma paixão por enfrentar desafios e alcançar o sucesso coletivo.</p>
-        </div>
-        
-       </div>
-    </Element>
+   <section id="home" className="lg:h-[85vh] flex items-center lg:bg-cover
+   lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden">
+
+    <div className="container mx-auto h-full">
+      <div className=" flex items-center h-full pt-8">
+
+          <div className="flex-1 flex-col items-center  lg:items-start">
+              <p className="font-medium">Ola,Sou Yuran Nhassengo</p>
+              <h1 className="text-3xl leading-[44px]
+              md:text-3xl md:leading-tight lg:text-4xl
+              lg:leading-[1.2] font-body md:tracking-[-2px">
+                Desenvolvedor Fullstack Junior
+              </h1>
+              <p className="pt-2 pb-4 md:pt-4 md:pb-8 max-w-[530px] text-lg text-center">
+                Estou aberto a novas oportunidades e pronto para colaborar em projetos.
+                Agradeço por visitar meu portfólio e estou ansioso para discutir como posso ajudar!
+              </p>
+              <button className=" btn btn-md border-solid border-2  font-semibold px-4 py-2 rounded-lg bg-blue-300 border-blue-300
+                hover:bg-transparent hover:text-black transition-all">
+                Entre em Contato
+              </button>
+          </div>
+
+          <div>
+
+          </div>
+      </div>
+
+    </div>
+   </section>
   )
 }
 
