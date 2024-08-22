@@ -26,8 +26,8 @@ export const Home = () => {
               </button>
           </div>
 
-          <div>
-
+          <div className="hidden lg:flex flex-1 justify-end h-full">
+                <img src="" alt="" />
           </div>
       </div>
 
