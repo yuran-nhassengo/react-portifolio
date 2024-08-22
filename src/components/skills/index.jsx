@@ -14,11 +14,11 @@ export const Skills = () => {
     <section className="ml-16 relative items-center mb-12">
         
 
-        <div className="flex flex-wrap justify-center items-start   gap-12">
+        <div className="flex flex-wrap justify-center items-start  gap-40">
 
            <div>
             
-                    <h3 className="text-2xl mb-12 font-semibold">Technical Proficiency</h3>
+                    <h3 className="text-2xl mb-24 font-semibold">Technical Proficiency</h3>
 
                     <div className=" mt-12 grid gap-12 grid-cols-2">
                         {SKILLS.map((item) =>(
@@ -36,7 +36,7 @@ export const Skills = () => {
                         }
                     </div>
             </div> 
-            <div className="flex">
+            <div className="flex ">
                 <SkillsInfoCard
                     heading={selectedSkill.title}
                     skills={selectedSkill.Skills}
