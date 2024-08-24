@@ -15,7 +15,7 @@ export const Header =() =>{
             md:px-32 bg-white drop-shadow-md
           ">
             <a href="#">
-              <img src="#" alt="Logo" className="w-52 hover:scale-105 transition-all" />
+              <img src="./logo.png" alt="Logo" className="w-24 hover:scale-105 transition-all" />
             </a>
 
             <div className="hidden xl:flex items-center gap-12 font-semibold text-base">
