@@ -1,11 +1,28 @@
 import React from 'react'
 
+
+
 export const About = () => {
   return (
 
-        <div>
-          
-        </div>
+        <section className="mt-24" id='about'>
+            <div className=" mx-auto">
+                  <div className="flex flex-col xl:flex-row gap-24">
+                    <img className="object-cover h-full  w-[566px]
+                    md:mx-auto lg:mx-0 rounded-2xl" src="./profile.png" alt="Image" />
+                    <div className="flex flex-col items-center
+                    text-center lg:items-start lg:text-left">
+                      <h2 className="text-3xl lg:text-4xl
+                      font-medium lg:font-extrabold mb-3
+                      before:content-about relative before:absolute
+                      before:opacity-100 before:-top-[2rem]
+                      before:hidden before:lg:block">Yuran Nhassengo</h2>
+                      <p className="text-black">Desenvolvedor Fullstack Junior</p>
+
+                    </div>
+                  </div>
+            </div>
+        </section>
 
 
 //     <Element name="home" className="flex  flex-wrap justify-center relative" >
