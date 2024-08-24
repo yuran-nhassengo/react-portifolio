@@ -20,7 +20,7 @@ export const Header =() =>{
 
             <div className="hidden xl:flex items-center gap-12 font-semibold text-base">
               <Link  to="home" smooth={true} duration={500} className="menu-item">Home</Link>
-              <Link  className="menu-item">About</Link>
+              <Link to="about" smooth={true} duration={500} className="menu-item">About</Link>
               <Link className="menu-item">Skills</Link>
               <Link className="menu-item">projects</Link>
               <Link to="contact" smooth={true} duration={500} className="menu-item">Contact</Link>
