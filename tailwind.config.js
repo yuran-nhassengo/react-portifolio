@@ -6,6 +6,7 @@ export default {
     extend: {
       content:{
         about:'url(./about.svg)',
+        portfolio:'url(./portfolio.svg)',
       },
     },
   },

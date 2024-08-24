@@ -2,6 +2,7 @@ import { About } from "./components/about"
 import { Contact } from "./components/contact/contactForm"
 import { Header } from "./components/header"
 import { Home } from "./components/home"
+import Portfolio from "./components/portfolio"
 import { Skills } from "./components/skills"
 
 
@@ -14,6 +15,7 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
+      <Portfolio/>
       <Contact/>
     </div>
   )
