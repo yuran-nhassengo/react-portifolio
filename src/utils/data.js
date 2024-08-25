@@ -54,3 +54,36 @@ export const SKILLS = [
         ],
     },
 ]
+
+export const WORK_EXPERIENCE = [
+    {
+        title:"SEnior Frontend Developer at tech Innovators",
+        data:"January 2022 -present",
+        responsabilities:[
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+        ]
+    },
+    {
+        title:"Pleno Frontend Developer at tech Innovators",
+        data:"January 2022 -present",
+        responsabilities:[
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+        ]
+    },
+    {
+        title:"Junior Frontend Developer at tech Innovators",
+        data:"January 2022 -present",
+        responsabilities:[
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+            "Led a team of Frontend and that on that5",
+        ]
+    },
+]
