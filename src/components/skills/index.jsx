@@ -11,7 +11,7 @@ export const Skills = () => {
         setSelectedSkill(data);
     }
   return (
-    <section className="ml-16 relative items-center mb-12">
+    <section id="skills" className="ml-16 relative items-center mb-12">
         
 
         <div className="flex flex-wrap justify-center items-start  gap-40">

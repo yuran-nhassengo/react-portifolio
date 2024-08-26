@@ -14,13 +14,13 @@
       name: 'all',
     },
     {
-      name: 'UI/UX Design',
+      name: 'FrontEnd',
     },
     {
-      name: 'web development',
+      name: 'BackEnd',
     },
     {
-      name: 'branding',
+      name: 'Figma',
     },
   ];
 

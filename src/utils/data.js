@@ -57,33 +57,33 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
-        title:"SEnior Frontend Developer at tech Innovators",
-        data:"January 2022 -present",
-        responsabilities:[
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
+        title: "Barman at ORN Lounge Bar",
+        data: "January 2020 - December 2021",
+        responsabilities: [
+            "Prepared and served drinks to customers",
+            "Maintained cleanliness of the bar area",
+            "Managed inventory and ordered supplies",
+            "Provided excellent customer service"
         ],
     },
     {
-        title:"Pleno Frontend Developer at tech Innovators",
-        data:"January 2022 -present",
-        responsabilities:[
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
+        title: "Caixa at ORN Lounge Bar",
+        data: "January 2019 - December 2020",
+        responsabilities: [
+            "Handled cash and processed transactions",
+            "Balanced cash drawer and prepared reports",
+            "Assisted with customer inquiries and complaints",
+            "Maintained a clean and organized workspace"
         ],
     },
     {
-        title:"Junior Frontend Developer at tech Innovators",
-        data:"January 2022 -present",
-        responsabilities:[
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
-            "Led a team of Frontend and that on that5",
+        title: "Gerente at ORN Lounge Bar",
+        data: "January 2018 - December 2019",
+        responsabilities: [
+            "Oversaw daily operations of the bar",
+            "Managed staff and scheduled shifts",
+            "Ensured compliance with health and safety regulations",
+            "Developed and implemented promotional strategies"
         ],
     },
-]
+];

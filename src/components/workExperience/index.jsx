@@ -35,9 +35,9 @@ export const WorkExperience = () => {
     return (
         <section className="flex flex-wrap items-center">
             <div className="w-full max-w-screen-xl mx-auto px-4">
-                <h5 className="text-2xl text-center text-black font-semibold mb-6">Experiência Profissional</h5>
+                <h5 className="text-2xl text-center text-black font-semibold mb-6">Professional Experience</h5>
                 <div className="relative flex items-center justify-center">
-                    {/* Setas de navegação */}
+                 
                     <div
                         className="absolute left-4 top-1/2 transform -translate-y-1/2 cursor-pointer z-10 bg-gray-100 p-2 rounded-full shadow-lg"
                         onClick={slideLeft}
@@ -45,8 +45,8 @@ export const WorkExperience = () => {
                         <i className="bx bx-chevron-left text-4xl text-blue-500"></i>
                     </div>
 
-                    {/* Contêiner do slider */}
-                    <div className="w-full bg-red-200 max-w-screen-lg ">
+                   
+                    <div className="w-full max-w-screen-lg ">
                         <Slider ref={sliderRef} {...settings}>
                             {WORK_EXPERIENCE.map((item, index) => (
                                 <div key={index} className="p-4">

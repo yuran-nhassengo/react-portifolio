@@ -17,16 +17,16 @@ export const About = () => {
                       before:content-about relative before:absolute
                       before:opacity-100 before:-top-[2rem]
                       before:hidden before:lg:block">Yuran Nhassengo</h2>
-                      <p className="text-black">Desenvolvedor Fullstack Junior</p>
+                      <p className="text-black">Junior Fullstack Developer</p>
                       <hr className="mb-8 opacity-5" />
-                      <p className="mb-8 mt-16 pt-2 pb-4 md:pt-4 md:pb-8 max-w-[500px] text-2xl ">Ola, meu nome é Yuran Oscar Nhassengo, uma pessoa com um forte senso de responsabilidade, 
-                          lealdade e justiça. 
-                       Valorizo o trabalho em equipe e me considero um líder natural, sempre buscando colaborar e 
-                          apoiar meus colegas. Comprometido com o crescimento contínuo e a busca por novos conhecimentos,
-                      tenho uma paixão por enfrentar desafios e alcançar o sucesso coletivo.</p>
+                      <p className="mb-8 mt-16 pt-2 pb-4 md:pt-4 md:pb-8 max-w-[500px] text-2xl ">Hello, my name is Yuran Oscar Nhassengo.
+                         I am a person with a strong sense of responsibility, loyalty, and fairness. I value teamwork and consider myself
+                          a natural leader, always seeking to collaborate with and support my colleagues.
+                         Committed to continuous growth and the pursuit of new knowledge,
+                          I have a passion for facing challenges and achieving collective success.</p>
                       <button className=" btn btn-md border-solid border-2  font-semibold px-4 py-2 rounded-lg bg-blue-300 border-blue-300
                           hover:bg-transparent hover:text-black transition-all">
-                          Entre em Contato
+                          Get in Touch
                       </button>
                     </div>
 
