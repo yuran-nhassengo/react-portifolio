@@ -6,12 +6,16 @@ import Portfolio from "./components/portfolio"
 import { Skills } from "./components/skills"
 import { WorkExperience } from "./components/workExperience"
 
+/* Importar os estilos padrão do react-slick */
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 function App() {
 
 
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-300">
       <Header/>
       <Home/>
       <About/>

@@ -21,8 +21,8 @@ export const Header =() =>{
             <div className="hidden xl:flex items-center gap-12 font-semibold text-base">
               <Link  to="home" smooth={true} duration={500} className="menu-item">Home</Link>
               <Link to="about" smooth={true} duration={500} className="menu-item">About</Link>
-              <Link className="menu-item">Skills</Link>
-              <Link className="menu-item">projects</Link>
+              <Link to="skills" smooth={true} duration={500} className="menu-item">Skills</Link>
+              <Link to="projects" smooth={true} duration={500} className="menu-item">projects</Link>
               <Link to="contact" smooth={true} duration={500} className="menu-item">Contact</Link>
 
             </div>
@@ -40,11 +40,11 @@ export const Header =() =>{
               transform transition-transform ${isMenuOpen ? "opacity-100":"opacity-0"}`}
               style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}>
 
-                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Home</Link>
-                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">About</Link>
-                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Skills</Link>
-                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Projects</Link>
-                <Link className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Contact</Link>
+                <Link to="home" smooth={true} duration={500} className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Home</Link>
+                <Link to="about" smooth={true} duration={500} className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">About</Link>
+                <Link to="skills" smooth={true} duration={500} className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Skills</Link>
+                <Link to="projects" smooth={true} duration={500} className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Projects</Link>
+                <Link to="contact" smooth={true} duration={500} className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Contact</Link>
               </div>
           </header>
         </div>

@@ -64,7 +64,7 @@ export const WORK_EXPERIENCE = [
             "Led a team of Frontend and that on that5",
             "Led a team of Frontend and that on that5",
             "Led a team of Frontend and that on that5",
-        ]
+        ],
     },
     {
         title:"Pleno Frontend Developer at tech Innovators",
@@ -74,7 +74,7 @@ export const WORK_EXPERIENCE = [
             "Led a team of Frontend and that on that5",
             "Led a team of Frontend and that on that5",
             "Led a team of Frontend and that on that5",
-        ]
+        ],
     },
     {
         title:"Junior Frontend Developer at tech Innovators",
@@ -84,6 +84,6 @@ export const WORK_EXPERIENCE = [
             "Led a team of Frontend and that on that5",
             "Led a team of Frontend and that on that5",
             "Led a team of Frontend and that on that5",
-        ]
+        ],
     },
 ]
