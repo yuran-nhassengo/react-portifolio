@@ -9,7 +9,7 @@ export const Project = ({item}) => {
         <div className="mb-8">
             <img className="rounded-2xl" src={item.image} alt="projectImage"/>
         </div>
-        <p className="capitalize text-blue-300 text-sm mb-3">{item.category}</p>
+        <p className="capitalize text-blue-300 text-2xl font-semibold mb-3">{item.category}</p>
         <h3 className="text-2xl font-semibold mb-3">{item.name}</h3>
     </div>
   )

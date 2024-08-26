@@ -9,6 +9,7 @@ import { WorkExperience } from "./components/workExperience"
 /* Importar os estilos padrão do react-slick */
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Footer from "./components/footer"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Skills/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
