@@ -5,18 +5,19 @@ import { ContactInfoCard } from './contactInfoCard';
 export const Contact = () => {
   return (
     <Element name="contact">
-      <div className="max-w-6xl w-full mx-auto p-6  shadow-md rounded-lg border-solid border-2 border-blue-300 mb-16 mt-16">
+      <div className="max-w-6xl w-full mx-auto p-6  shadow-md rounded-lg border-solid border-2
+       border-blue-300 mb-16 mt-16 bg-white">
         <h2 className="text-3xl text-center text-black font-bold mb-6">Contact Me</h2>
         
         <div className="flex flex-col md:flex-row gap-6">
           {/* Contact Info Section */}
           <div className="flex-1">
-            <ContactInfoCard text="https://www.linkedin.com/in/yuran-nhassengo/" />
-            <ContactInfoCard text="+258849102433" />
+            <ContactInfoCard text="https://www.linkedin.com/in/yuran-nhassengo/" img="bxl-linkedin"/>
+            <ContactInfoCard text="+258849102433" img=" bxs-phone"/>
           </div>
 
           {/* Form Section */}
-          <form action="" className="flex-1">
+          <form action="" className="flex-1 ">
             <div className="mb-4">
               <label className="block text-gray-700 text-2xl font-semibold mb-2"
                htmlFor="fullName">Full Name:</label>
